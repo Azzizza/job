@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- custom style -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- externel links -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>jobface</title>
+</head>
+
+<body style="background-color: #f3f3f3;font-family: Abel, Arial, Verdana, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Jobface</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <!-- Dropdown -->
+                <li style="margin-right: 10px;" class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Mes Resultat</a>
+                        <a class="dropdown-item" href="#">Deconnexion</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- offer section -->
+
+    <!-- Middle Column -->
+    <div style="margin-top:22px" class="w3-col m7">
+
+        <div class="w3-row-padding">
+            <div class="w3-col m12">
+                <div class="w3-card w3-round w3-white">
+                    <div class="w3-container w3-padding">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">spécialité recherche</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>ingénieur en génie logiciel</option>
+                              <option>ingénieur en business intelligence</option>
+                              <option>ingénieur en data science</option>
+                              <option>ingénieur en development web</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect1">Type de Contrat</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>SIVP</option>
+                              <option>CDI</option>
+                              <option>FULL TIME</option>
+                            </select>
+                          </div>
+                        <button type="button" class="w3-button w3-theme">Filter les resultat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ./Middle Column -->
+
+        <!-- job-offer-card-item -->
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+            <img src="../assets/img/avatar3.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width:160px">
+            <span class="w3-right w3-opacity">16 min</span>
+            <h4>Jane Doe</h4><br>
+            <h4 class="job-title"><i class="fa fa-graduation-cap"> web</i></h4>
+            <h4 class="job-title"><i class="fa fa-briefcase"> full time</i></h4>
+            <hr class="w3-clear">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam doloremque
+                voluptate ab, numquam veniam quis aperiam rerum accusantium, commodi modi odio illo. Repellat maxime
+                autem, ad aliquam dignissimos consequuntur provident!.</p>
+            <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom  ">Postuler</button>
+        </div> <!-- ./job-offer-card-item -->
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 
-
+// *********************GET-ROUTE***********************//
 app.get("/", (req, res) => {
   res.render("home");
 });
@@ -35,6 +35,15 @@ app.get("/registerRecruiter", (req, res) => {
 app.get("/registerCondidat", (req, res) => {
   res.render("register_condidat");
 });
+
+app.get("/compteCondidat", (req, res) => {
+  res.render("compte_condidat");
+});
+
+
+// *********************GET-ROUTE***********************//
+
+
 
 
 
